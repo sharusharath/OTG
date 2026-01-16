@@ -265,8 +265,18 @@
       text-transform: uppercase;
       letter-spacing: 1px;
     }
+    .cta-button-shop{
+        background-color: #025B2B;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        text-decoration: none;
+        padding: 12px 36px;
+         box-shadow: 0 15px 35px rgba(16,185,129,0.4);
+      transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
 
-    .cta-button:hover {
+    .cta-button-shop:hover {
       transform: translateY(-8px);
       box-shadow: 0 25px 50px rgba(16,185,129,0.5);
     }
@@ -683,10 +693,12 @@
   text-align: center;
   cursor: pointer;
   position: relative;
+  width: 120px;
 }
 
 .main-container-fragrance img {
   width: 60px;
+  margin-top: 16px;
 }
 
 .main-container-fragrance.active {
@@ -695,12 +707,13 @@
 
 .main-container-badge {
   position: absolute;
-  top: -8px;
+  top: -12px;
   background: #0b5e3b;
   color: #fff;
-  font-size: 10px;
+  font-size: 8px;
   padding: 2px 6px;
   border-radius: 4px;
+  right: 0;
 }
 
 .main-container-included {
@@ -756,6 +769,13 @@
     color: #fff;
     font-weight: 600;
       background: linear-gradient(135deg, #10b981, #059669);
+}
+.frag-text{
+  color: lightgrey;
+}
+.frag-text input[type="radio"]{
+  accent-color: lightgrey;
+  margin-right: 8px;
 }
 /* Responsive */
 @media (max-width: 768px) {
