@@ -47,7 +47,7 @@
     .hamburger span {
       width: 25px;
       height: 3px;
-      background: #e2e8f0;
+      background: #fff;
       border-radius: 3px;
       transition: all 0.3s ease;
     }
@@ -803,6 +803,9 @@
 @media (max-width: 768px) {
   .gtg-container {
     flex-direction: column;
+  }
+  .stats{
+    display: block;
   }
 }
 
